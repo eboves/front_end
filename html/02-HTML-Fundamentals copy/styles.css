@@ -1,0 +1,40 @@
+body {
+	font-family: sans-serif;
+	border: 3px solid black;
+	line-height: 1.4;
+}
+
+h2 {
+	background-color: #f7f7f7;
+	font-size: 22px;
+	text-align: center;
+}
+h2,h4,.add-cart, .freeshipping {
+	text-transform: uppercase;
+}
+.freeshipping {
+	color: #444444;
+	font-size: 12px;
+}
+
+.more-info:link, .more-info:visited {
+	color: black;
+}
+.more-info:hover, .more-info:active {
+	text-decoration: none
+}
+
+.add-cart {
+	background-color: black;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+.add-cart:hover {
+	background-color: white;
+	color: black;
+}
+
+.product-details {
+	list-style-type: square;
+}
