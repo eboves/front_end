@@ -1,22 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 body {
 	font-family: sans-serif;
-	border: 3px solid black;
 	line-height: 1.4;
 }
-
+.post {
+	border: 3px solid black;
+}
+.container {
+	width: 825px;
+	margin: auto;
+}
+.sneaker {
+	width: 250px;
+	height: 250px;
+}
 h2 {
 	background-color: #f7f7f7;
 	font-size: 22px;
 	text-align: center;
+	padding: 10px 0;
 }
 h2,h4,.add-cart, .freeshipping {
 	text-transform: uppercase;
 }
 .freeshipping {
+	padding-bottom: 15px;
 	color: #444444;
 	font-size: 12px;
 }
 
+h4 {
+	margin: 20px 0;
+}
+.details {
+	margin: 10px 0;
+}
+.more-info {
+	margin-bottom: 10px;
+}
 .more-info:link, .more-info:visited {
 	color: black;
 }
@@ -24,6 +48,11 @@ h2,h4,.add-cart, .freeshipping {
 	text-decoration: none
 }
 
+.product-details {
+	list-style-type: square;
+	padding-left: 15px;
+	margin: 10px 0;
+}
 .add-cart {
 	background-color: black;
 	border: none;
@@ -34,7 +63,12 @@ h2,h4,.add-cart, .freeshipping {
 	background-color: white;
 	color: black;
 }
+li {
+	margin: 10px 0;
+}
 
-.product-details {
-	list-style-type: square;
+.add-cart {
+	padding: 10px 0;
+	width: 100%;
+	border-top: 3px solid black;
 }
