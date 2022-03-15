@@ -8,11 +8,27 @@ body {
 }
 .post {
 	border: 3px solid black;
+	position: relative;
 }
 .container {
 	width: 825px;
 	margin: 50px auto;
 }
+
+.sale {
+	background-color: red;
+	color: white;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 5px 15px;
+	font-size: 12px;
+	position:absolute;
+	top: -15px;
+	left: -30px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
 .sneaker {
 	width: 250px;
 	height: 250px;
@@ -51,6 +67,46 @@ h4 {
 .details {
 	margin: 10px 0;
 }
+/*
+.colors {
+	display: inline-block;
+}
+*/
+.colores {
+	display: inline-block;
+	margin: 0 5px;
+	height: 25px;
+	width: 25px;
+	margin-top: 15px;
+}
+.colores:first-child {
+	margin-left: 0;
+}
+
+.color-black {
+	background-color: #000000;
+}
+
+.color-blue {
+	background-color: blue;
+}
+
+.color-red {
+	background-color: red;
+}
+
+.color-yellow {
+	background-color: yellow;
+}
+
+.color-green {
+	background-color: green;
+}
+
+.color-brown {
+	background-color: brown;
+}
+
 .more-info {
 	margin-bottom: 10px;
 }
