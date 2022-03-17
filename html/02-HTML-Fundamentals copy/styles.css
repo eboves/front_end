@@ -24,9 +24,10 @@ body {
 	font-size: 12px;
 	position:absolute;
 	top: -15px;
-	left: -30px;
+	left: -40px;
 	font-family: sans-serif;
 	font-weight: bold;
+	letter-spacing: 5px;
 }
 
 .sneaker {
@@ -43,7 +44,6 @@ h2,h4,.add-cart, .freeshipping {
 	text-transform: uppercase;
 }
 .freeshipping {
-	padding-bottom: 15px;
 	color: #444444;
 	font-size: 12px;
 }
@@ -67,13 +67,14 @@ h4 {
 .details {
 	margin: 10px 0;
 }
-/*
+
 .colors {
-	display: inline-block;
+	margin-top: 15px;
+	display: flex;
+
 }
-*/
+
 .colores {
-	display: inline-block;
 	margin: 0 5px;
 	height: 25px;
 	width: 25px;
@@ -140,4 +141,22 @@ li {
 	padding: 10px 0;
 	width: 100%;
 	border-top: 3px solid black;
+}
+
+.row {
+	display: flex;
+	gap: 25px;
+}
+.product-box {
+	flex: 1;
+}
+.selection {
+	flex: 1;
+}
+
+.price-shipping{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	align-items: center;
 }
