@@ -27,18 +27,35 @@ body {
 
 }
 
-.detail-box {
-	grid-column: 2;
+.open {
+	border-top: 4px solid #087f5b;
+
 }
-.detail-box p {
-	margin-bottom: 16px;
+.open .detail-box {
+	display: block;
 }
-.number, .title{
-	font-size: 24px;
+.open .number,
+.open .title {
 	color: #087f5b;
 }
 
+.detail-box {
+	grid-column: 2;
+	display: none;
+}
+.number {
+	color: #ced4da;
+}
+.detail-box p {
+	margin-bottom: 24px;
+	line-height: 1.6;
+}
+.number, .title{
+	font-size: 24px;
+}
+
 .detail-box ul {
+	color: #868e96;
 	display: flex;
 	flex-direction: column;
 	gap: 12px;
